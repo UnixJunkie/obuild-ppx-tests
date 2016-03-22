@@ -1,0 +1,11 @@
+Name: test
+Version: 1.0
+Authors: fbr
+License: GPL
+Synopsis: obuild ppx support test
+obuild-ver: 1
+
+Executable deriving
+  src-dir: .
+  build-deps: ppx_deriving.std
+  main-is: deriving.ml
