@@ -7,5 +7,5 @@ obuild-ver: 1
 
 Executable deriving
   src-dir: .
-  build-deps: ppx_deriving.std
+  build-deps: ppx_deriving.show
   main-is: deriving.ml
