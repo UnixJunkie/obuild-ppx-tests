@@ -14,3 +14,8 @@ Executable sexp
   src-dir: .
   build-deps: ppx_sexp_conv, sexplib
   main-is: sexp.ml
+
+Executable binprot
+  src-dir: .
+  build-deps: ppx_bin_prot, bin_prot
+  main-is: binprot.ml
