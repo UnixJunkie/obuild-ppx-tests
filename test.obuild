@@ -9,3 +9,8 @@ Executable deriving
   src-dir: .
   build-deps: ppx_deriving.show
   main-is: deriving.ml
+
+Executable sexp
+  src-dir: .
+  build-deps: ppx_sexp_conv, sexplib
+  main-is: sexp.ml
